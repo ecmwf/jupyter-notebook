@@ -21,7 +21,7 @@ It also included the following Python packages from ECMWF:
 The following will start a Jupyter Notebook listening on port 8888:
 
 ```
-$ docker run --publish 8888:8888 ecmwf/jupyter:latest
+$ docker run --publish 8888:8888 ecmwf/jupyter-notebook:latest
 ```
 
 If you want to be able to read (and save!) notebooks from a directory
@@ -31,7 +31,7 @@ container under `/home/jovyan/work`, so that the Jupyter kernel finds them:
 ```
 $ docker run --publish 8888:8888 \
     --volume /my/notebooks:/home/jovyan/work \
-      ecmwf/jupyter:latest
+      ecmwf/jupyter-notebook:latest
 ```
 
 
@@ -54,5 +54,5 @@ container:
 $ docker run --publish 8888:8888 \
     --volume /my/notebooks:/home/jovyan/work \
     --volume ${HOME}/.ecmwfapirc:/home/jovyan/.ecmwfapirc:ro \
-      ecmwf/jupyter:latest
+      ecmwf/jupyter-notebook:latest
 ```

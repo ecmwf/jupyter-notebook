@@ -15,6 +15,6 @@ fi
 	  --build-arg=https_proxy=$https_proxy \
 	  --build-arg=ftp_proxy=$ftp_proxy \
 	  --build-arg=no_proxy=$no_proxy \
-	  -t ecmwf/jupyter:latest \
+	  -t ecmwf/jupyter-notebook:latest \
 	  -f ${here}/Dockerfile \
 	  ${here})
