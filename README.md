@@ -13,7 +13,7 @@ It also included the following Python packages from ECMWF:
 * cdsapi 0.1.1
 * cfgrib 0.9.2
 * ecmwf-api-client 1.4.2
-* metview 0.8.4
+* metview 0.8.6
 
 
 ## Running this image

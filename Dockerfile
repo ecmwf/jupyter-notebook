@@ -136,7 +136,7 @@ RUN set -eux \
 # Install Metview Python bindings.
 RUN set -ex \
 	&& pip install \
-	metview==0.8.4 \
+	metview==0.8.6 \
 	&& fix-permissions $CONDA_DIR \
 	&& fix-permissions /home/$NB_USER
 
