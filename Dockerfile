@@ -80,7 +80,7 @@ RUN set -ex \
 	&& fix-permissions /home/$NB_USER
 
 # Install ecbuild.
-ENV ECBUILD_VERSION=2.9.1
+ENV ECBUILD_VERSION=2.9.2
 
 RUN set -eux \
 	&& mkdir -p /src \
