@@ -15,6 +15,9 @@ It also included the following Python packages from ECMWF:
 * ecmwf-api-client 1.4.2
 * metview 0.8.6
 
+Package [scipy](https://www.scipy.org/) version 1.1.0 is also
+included.
+
 
 ## Running this image
 

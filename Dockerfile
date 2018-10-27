@@ -75,6 +75,7 @@ RUN set -ex \
 	notebook==5.7.0 \
 	numpy==1.15.2 \
 	pandas==0.23.4 \
+	scipy==1.1.0 \
 	xarray==0.10.9 \
 	&& fix-permissions $CONDA_DIR \
 	&& fix-permissions /home/$NB_USER
